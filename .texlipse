@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Fri Jan 02 23:13:51 SAMT 2015
+markTmpDer=true
+builderNum=2
+outputDir=tmp/
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=tabletop.tex
+outputFile=tabletop.pdf
+langSpell=ru
+markDer=true
+srcDir=
