@@ -1,4 +1,4 @@
-TEX = tabletop.tex header.tex
+TEX = tabletop.tex header.tex title.tex
 
 LATEX = pdflatex --output-directory=tmp -halt-on-error
 BIBER = biber

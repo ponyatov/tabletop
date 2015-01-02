@@ -3,6 +3,10 @@
 Joe Martin
 Craig Libuse
 
+Tabletop Machining
+
+A basic approach to making small parts on miniature machine tools
+
 (c) Sherline Products
 
 Все права на оригинал и перевод принадлежат
