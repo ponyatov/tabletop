@@ -8,6 +8,7 @@ TEX += title2004.tex
 TEX += safety.tex
 TEX += foreword.tex
 TEX += introduction.tex
+TEX += projects.tex
 
 LATEX = pdflatex --output-directory=tmp -halt-on-error
 BIBER = biber
