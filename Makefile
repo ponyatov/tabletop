@@ -11,6 +11,7 @@ TEX += introduction.tex
 TEX += projects.tex
 TEX += scotty.tex
 TEX += chap1.tex
+TEX += chap2.tex
 
 LATEX = pdflatex --output-directory=tmp -halt-on-error
 BIBER = biber
