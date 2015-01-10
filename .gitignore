@@ -1,6 +1,5 @@
 *~
 *.swp
-original.pdf
-
+*.pdf
 tmp
-xliff
+
