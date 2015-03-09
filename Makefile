@@ -10,7 +10,7 @@ TEX += foreword.tex
 TEX += introduction.tex
 TEX += projects.tex
 TEX += scotty.tex
-TEX += chap1.tex chap2.tex chap3.tex chap4.tex chap5.tex chap6.tex
+TEX += chap1.tex chap2.tex chap3.tex chap4.tex chap5.tex chap6.tex chap7.tex
 
 LATEX = pdflatex --output-directory=tmp -halt-on-error
 BIBER = biber
