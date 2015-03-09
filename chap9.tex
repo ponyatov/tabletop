@@ -1,0 +1,295 @@
+\secrel{Chapter 9\ --- General machining terms}\secdown
+
+\secrel{General rules for cutting speeds, feed rates and depth of cut}
+
+Three terms frequently used in machining are "speed", "feed"\ and "depth of cut".
+Reference to the diagrams below will show what is meant by these terms. Normal
+turning on a lathe, when used to reduce the diameter of a work piece, involves
+advancing the cutting tool perpendicularly to the lathe bed by an appropriate
+amount (depth of cut) and feeding the tool along parallel to the lathe bed to
+remove material over the desired length. The diameter will be reduced by twice
+the depth of cut because the tool doesn't cut just one side.
+
+\secrel{"Cut"\ and "feed"\ on a lathe}
+
+In normal machining on a Sherline lathe, the depth of cut can be directly set by
+the crosslide handwheel. Some lathes are manufactured with a dial on the
+crosslide that is calibrated to the actual "change in diameter". This is common
+and is a good question to ask before using a different lathe. Sherline's lathe
+has a crosslide that reads directly. This allows the crosslide to be used as a
+milling table and have the calibrated handwheels reading correctly. The feed is
+provided by the handwheel on the end of the bed. When facing off the end of a
+work piece held in a chuck or faceplate, the depth of cut is set by the
+handwheel on the end of the bed, and the feed is provided by the crosslide
+handwheel. If the work extends beyond the safe working limits, additional
+support may be needed. A center or steady rest should be considered.
+
+\bigskip
+NORMAL TURNING
+
+FACING
+
+FEED
+
+CUT
+\bigskip
+
+\textit{Lathe cutting terms}
+\bigskip
+
+\secrel{"Cut"\ and "feed"\ on a mill}
+
+When using a mill, cut is determined by the amount of depth the cutter is set to
+by the Z-axis handwheel. Feed is supplied by either or both the X- or Y-axis
+handwheels depending on the desired direction of the cut.
+
+\bigskip
+CUT ("Z"\ AXIS)
+
+FEED ("X"\ AXIS)
+
+FEED ("Y"\ AXIS)
+\bigskip
+
+\textit{Mill cutting terms}
+\bigskip
+
+\secrel{Effects of cutting rates on tool life}
+
+Speed, feed and depth of cut all have an effect on tool life. Speed is the rate
+the cutting tool is moving in relation to the material being cut. Speed has the
+greatest effect on tool life of any of the three variables mentioned, which is
+why it is mentioned so many times in this book. I don't want you to ruin
+perfectly good cutting tools by breaking these simple rules. For example, a 1/4"
+diameter drill cutting stainless steel should have a correct cutting speed of
+800 RPM. This is a speed that can easily be exceeded on all but the largest
+lathes. The Sherline lathe and mill are capable of 2800 RPM and at half that
+speed, the drill could be ruined. The largest diameter of the stock to be turned
+should be considered when determining the cutting speed on a lathe. With
+Sherline tools it is so easy to adjust the RPM that it would be beneficial to
+adjust the speed to the diameter you are working on.
+
+Turning CNC machines will automatically adjust their spindle speed as the
+diameter is decreased, saving those valuable seconds. Remember also that the
+main difference between a lathe and a mill is that on a lathe the work turns,
+while on a mill the tool turns.
+
+\secrel{Cutting speed vs. type of tool and material being cut}
+
+When considering cutting speeds, only the difference in speed between the tool
+and work should be considered. However, the type of tool that is being used may
+dictate a different cutting speed. Different tool shapes will have cutting
+speeds that not only consider the type of material being machined and the
+material the tool is made out of, but also consider the chip "flow". Drills are
+a good example of this, A drill, deep in a hole, can't get rid of chips the same
+way a lathe tool can. Basic cutting speed charts for materials represent lathe
+tools. Drills and similar tools have a much lower cutting speed. A home
+machinist must work with speeds that are well below the calculated speeds
+because it is quicker in the long run. It isn't worth the effort to calculate
+the exact rpm of a machine that is going to make one or two cuts, but it is time
+well spent if thousands of similar parts are to be made. A portion of a chart
+showing these differences is provided below. Machinery's Handbook will provide
+tables in greater detail should you need more information.
+
+\clearpage
+\bigskip
+GUIDE TO APPROXIMATE LATHE TURNING SPEEDS
+
+\bigskip
+
+\begin{tabular}{|l|l|l l l|}
+\hline
+MATERIAL & Cut Speed & 1/4"(6mm) & 1/2'(13mm)& 1"\ (25mm) \\
+& S.F.M. & Diameter & Diameter & Diameter \\
+\hline
+				
+Stainless, 303& 67 & 1000 RPM & 500 RPM & 250 RPM \\
+Stainless, 304 &&&&\\
+Stainless, 316 &&&&\\
+Steel, 12L14 &&&&\\
+Steel, 1018 &&&&\\
+Steel, 4130 &&&&\\
+Cray Cast Iron &&&&\\
+Aluminum, 7075 &&&&\\			
+Aluminum, 6061 &&&&\\
+Aluminum, 2024 &&&&\\
+Brass &&&&\\
+\hline
+\end{tabular}
+\bigskip
+
+\secrel{Cutting speed}
+
+Proper cutting speed is the rate a particular material can be machined without
+damaging the cutting edge of the tool that is machining it. It is based on the
+surface speed of the material in relationship to the cutter. This speed is a
+function of both the RPM of the spindle as well as the diameter of the part or
+size of the cutter, because, as the part diameter or cutter size increases, the
+surface moves a greater distance in a single rotation. If you exceed this ideal
+speed, you can damage the cutting tool. In the lathe and mill instructions we
+give some examples of suggested cutting speeds, but what I wanted to get across
+here is that the damage doesn't occur slowly, It isn't a case of getting only
+one hour of use instead of two. A tool can be destroyed in just a few seconds.
+The cutting edge actually melts. If you machine tough materials like stainless
+steel, you will ruin more tools than you care to buy if you don't pay a lot of
+attention to cutting speeds.
+
+\bigskip
+\textit{With big machines in a production environment, time is money, so feed
+rates and cutting speeds are critical. Saving time and making parts fast is not
+as big a factor for the home machinist.}
+\bigskip
+
+\secrel{Calculating spindle speed for cutting}
+
+To calculate the RPM's of a cutter or work piece, you first must know the
+cutting speed of the material that is being machined and the material from which
+the cutter is made. High speed steel will be our standard tool material, and
+cutters that use carbide tips will be considered separately. You could fill a
+library with all the books written on speeds and feeds, and the reason is
+simple. Time is money, and when parts are being manufactured in large
+quantities, you have to use the most efficient method to machine a part. The few
+seconds of time that is saved on each part will be multiplied by the total
+number of parts manufactured, giving the total time saved. As an example, a part
+might be produced for the automobile industry at a rate of three million parts
+per year. A clever machinist comes up with a way to save three seconds per part.
+This will save around 2500 hours, which would probably be worth over \$100,000
+to the company. The corporation would probably award the machinist with a "thank
+you"\ and a check for around \$300 and the managers would take all the credit for
+the increased profits. (I guess I've been reading "Dilbert"\ comic strips for too
+long.) With this kind of money at stake, you must get it right, which is why
+books go into such detail on speeds and feeds. Home shop machinists, however,
+need not clutter their minds with a bunch of complicated tables, Since
+production speed is not usually a factor in home shop work, knowing a few simple
+rules and speeds will keep you out of trouble.
+
+If you work in the inch system, there is an easy way to calculate the spindle
+speed. Multiply the material's recommended cutting speed (given in feet per
+minute) times four. Then divide the answer by the diameter of the work (lathe)
+or cutter (mill) given in inches. This will give you an approximate answer that
+is more than accurate enough to use while working on Sherline or similar
+miniature machine tools. Here is the formula:
+
+\begin{equation}
+RPM=\frac{CS \times 4}{D}
+\end{equation}
+
+\begin{description}
+\item[CS] Cutting Speed of the material from your table in SFM (Surface Feet per
+Minute)
+\item[4] feet-to-inches conversion factor (12) divided by $\pi$ (3.14159) =
+3.82 which is rounded off to 4
+\item[D] Diameter of part (lathe) or cutter (mill) in inches
+\item[RPM] Spindle speed
+\end{description}
+
+By rounding off the conversion factor, it makes this formula easy enough to do
+in your head in most cases, yet it is still accurate enough.
+
+Example: On a mill, what RPM should a 3/8"\ (.375") diameter high speed steel
+cutter turn if it is to have a 100 fpm cutting speed?
+
+$$\frac{100 \times 4}{.375} = \frac{100 \times 4}{3/8}=
+\frac{100 \times 4 \times 8}{3}=1067\ RPM$$
+
+If the metric system is used, the cutting speed will be given in meters per
+minute and the diameter will be given in millimeters. The same problem would be
+worked out as shown below using 3.14 to equal the value for $\pi$.
+
+$$
+\frac{30.39 \times 1000}{3.14 \times 9.5}=
+\frac{30'390}{29.83}=
+1019\ RPM
+$$
+
+(1000 = the conversion from meters to millimeters in which the diameter is
+given.)
+
+\secrel{A factor for the shape of the cutting tool}
+
+There is one more factor to consider when estimating spindle speeds (RPM).
+Cutting speeds are given for a lathe tool unless otherwise stated. This is the
+most optimistic number given for cutting speeds and must be modified for other
+types of cutters, as using them at the suggested speeds will shorten their
+cutting life. Multiply the calculated spindle speed by the following factors for
+the following types of tools:
+
+\bigskip
+\begin{tabular}{l l l l}
+End mills = .9 &             
+Reamers = .6 &
+Drills = .7  &                
+Taps = 25 \\
+\end{tabular}
+\bigskip
+
+Example: Since the cutter in the example above is a mill, the speed would be
+multiplied by .9 to give a final speed of 960 RPM (inch) or 917 RPM (metric). If
+the speed in the example above were for a drill, you would multiply the answer
+by the factor .7 which would lower the spindle RPM to 747 (inch) or 713
+(metric). The factor listed for taps is, of course, only for automatic machines
+or for use with a tapping head, as you could never hand tap that fast.
+
+\bigskip
+
+END MILLS (Slot and side milling)
+
+\bigskip
+
+\begin{tabular}{l l l l l}
+\hline
+MATERIAL & CUT SPEED (S.F.M.) & 1/8"\ DIA & 1/4"\ DIA. & 3/8"\ DIA. \\
+\hline
+Stainless Steel, 303\\				
+Stainless Steei, 304\\				
+Sloinless Stella\\				
+Steel, 12L14\\				
+Steel, 101B\\				
+Steel, 4130\\				
+Gray Cast Iran\\				
+Aluminum, 7075\\				
+Atuminum, 6061\\				
+Aluminum, 2024\\				
+Aluminum, Cast\\				
+Brass\\				
+\hline
+\end{tabular}
+
+\bigskip
+DRILLS
+\bigskip
+
+\begin{tabular}{l l l l}
+\hline
+MATERIAL & CUT SPEED (S.F.M.) & 1/16"\ DIA. & 1/4"\ DIA. \\
+\hline
+Carbon Steel\\			
+Cast Iron, Soft\\			
+StuinlessSleel\\			
+Copper\\			
+Aluminum, Bat\\			
+Aluminum, Cast\\			
+\hline
+\end{tabular}
+
+\bigskip
+
+\secrel{Feed Rates}
+
+When operating manual tools, often the operator may not be able to move the
+handwheels fast enough to accomplish ideal feed rates. It is a better choice to
+slow down the spindle speed rather than taking feed cuts that are so fine they
+will work harden the surface, dull the cutter or induce tool "chatter".
+
+Other than speed, feed rate is the other great force that has an effect on tool
+life. Although feed is described in many ways, it is always describing the
+amount of material that is removed by each cutting edge per revolution of the
+spindle. Many times you will find it described as inches per minute (or mm/
+min.). With the information we now have, it is easy to calculate a single
+tooth's feed rate. Feed rate controls deflection by either the tool or work and
+turns into a load that has a very dramatic effect on accuracy. It is impossible
+to consistently work accurately with tools that are deflecting, and the amount
+they deflect is dependent on both the depth of cut and the feed rate. (See "End
+Mills"\ on page 81 in Chapter 6 of this section.)
+
+\secup
